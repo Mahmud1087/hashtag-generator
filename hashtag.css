@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: hsl(236, 18%, 92%);
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  width: 100%;
+  background-color: #000;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.35);
+  padding: 0.6rem 0;
+  margin: 1.2rem 0;
+  color: hsl(236, 18%, 92%);
+}
+
+textarea {
+  width: 100%;
+  padding: 0.6rem;
+  font-family: Helvetica;
+  border: 1px solid #272727;
+  background: transparent;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+button {
+  display: block;
+  width: 6rem;
+  margin: 1rem auto;
+  background-color: hsl(221, 98%, 61%);
+  border: none;
+  padding: 0.5rem;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.35);
+  border-radius: 4px;
+  transition: all 0.25s ease-in-out;
+  color: hsl(236, 18%, 92%);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: hsl(225, 95%, 60%);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+#hashtags {
+  color: orangered;
+  
+}
+
+/*button#clearAll {
+  display: none;
+  width: 8rem;
+}*/
+
+@media (768px <= width <= 1440px) {
+  .container {
+    width: 60%;
+  }
+  
+  h1 {
+    margin: 2rem 0;
+  }
+}
