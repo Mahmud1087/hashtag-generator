@@ -10,4 +10,4 @@ And if the input field is empty, it also displays false
 All the letters entered are capitalized and the hashtag generated
 
 
-link to live link here [hashtag-generator]()
+link to live link here [hashtag-generator](https://mahmud1087.github.io/hashtag-generator/)
