@@ -20,5 +20,11 @@ btn.addEventListener('click', () => {
   (value.length >= 140 || value === '') ? hashtagField.innerHTML += `${false} \n` :
     hashtagField.innerHTML += `#${hashtag} \n`;
   
-  //textarea.value = '';
+  textarea.value = '';
+  
+  if (hashtagField.innerHTML !== '') clearAllBtn.style.display = 'block';
+  clearAllBtn.addEventListener('click', () => {
+    hashtagField.innerHTML = '';
+    if (hashtagField.innerHTML === '') clearAllBtn.style.display = 'none';
+  })
 })

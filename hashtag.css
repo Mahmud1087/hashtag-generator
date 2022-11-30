@@ -71,12 +71,12 @@ button:hover {
   
 }
 
-/*button#clearAll {
+button#clearAll {
   display: none;
   width: 8rem;
-}*/
+}
 
-@media (768px <= width <= 1440px) {
+@media screen and (min-width: 768px) and (max-width: 1440px) {
   .container {
     width: 60%;
   }
